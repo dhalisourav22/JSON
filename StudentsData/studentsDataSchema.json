@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Students": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "null"
+            },
+            "Age": {
+              "type": "integer"
+            },
+            "Language": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Friends": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Name": {
+                      "type": "string"
+                    },
+                    "Age": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "Name",
+                    "Age"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "Name": {
+                      "type": "string"
+                    },
+                    "Age": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "Name",
+                    "Age"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "middleName",
+            "Age",
+            "Language",
+            "Friends"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "null"
+            },
+            "Age": {
+              "type": "integer"
+            },
+            "Language": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Friends": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "Name": {
+                      "type": "string"
+                    },
+                    "Age": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "Name",
+                    "Age"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "Name": {
+                      "type": "string"
+                    },
+                    "Age": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "Name",
+                    "Age"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "Name",
+            "middleName",
+            "Age",
+            "Language",
+            "Friends"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Students"
+  ]
+}
