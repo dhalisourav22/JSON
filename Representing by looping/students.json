@@ -1,0 +1,70 @@
+{
+    "Student1": [
+        {
+            "Name": "Sourav Dhali",
+            "middleName": null,
+            "Age": 22,
+            "Language": ["Bangle","English","Hindi"],
+            "Friends": [
+                {
+                    "Name": "ojil",
+                    "Age" : 25
+                },
+                {
+                    "Name": "Diya",
+                    "Age" : 20
+                }
+            ]
+        },
+        {
+            "Name": "Juthi Azad",
+            "middleName": null,
+            "Age": 21,
+            "Language": ["Bangle","English"],
+            "Friends": [
+                {
+                    "Name": "Tom",
+                    "Age" : 22
+                },
+                {
+                    "Name": "Lara",
+                    "Age" : 19
+                }
+            ]
+        }
+    ],
+    "Student2": [
+        {
+            "Name": "Sourav Dhali",
+            "middleName": null,
+            "Age": 22,
+            "Language": ["Bangle","English","Hindi"],
+            "Friends": [
+                {
+                    "Name": "ojil",
+                    "Age" : 25
+                },
+                {
+                    "Name": "Diya",
+                    "Age" : 20
+                }
+            ]
+        },
+        {
+            "Name": "Juthi Azad",
+            "middleName": null,
+            "Age": 21,
+            "Language": ["Bangle","English"],
+            "Friends": [
+                {
+                    "Name": "Tom",
+                    "Age" : 22
+                },
+                {
+                    "Name": "Lara",
+                    "Age" : 19
+                }
+            ]
+        }
+    ]
+}                 
